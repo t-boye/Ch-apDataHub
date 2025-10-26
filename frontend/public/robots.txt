@@ -1,0 +1,14 @@
+# robots.txt for VeriData
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /wallet
+Disallow: /settings
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://veridata.netlify.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 10

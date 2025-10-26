@@ -1,0 +1,35 @@
+# Headers for all files
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# JavaScript files
+/*.js
+  Content-Type: application/javascript; charset=utf-8
+
+# CSS files
+/*.css
+  Content-Type: text/css; charset=utf-8
+
+# HTML files
+/*.html
+  Content-Type: text/html; charset=utf-8
+
+# JSON files
+/*.json
+  Content-Type: application/json; charset=utf-8
+
+# Images
+/*.ico
+  Content-Type: image/x-icon
+
+/*.svg
+  Content-Type: image/svg+xml
+
+/*.png
+  Content-Type: image/png
+
+/*.jpg
+  Content-Type: image/jpeg
