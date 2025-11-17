@@ -1,10 +1,12 @@
-# Netlify Configuration for VeriData Frontend
+# Netlify Configuration for CheapData Frontend
 
 [build]
   # Build command
   command = "npm run build"
   # Output directory
   publish = "dist"
+  # Node version
+  environment = { NODE_VERSION = "18" }
 
 # Redirect all requests to index.html for SPA routing
 [[redirects]]
@@ -12,12 +14,12 @@
   to = "/index.html"
   status = 200
 
-# Force HTTPS
-[[redirects]]
-  from = "http://veridata.netlify.app/*"
-  to = "https://veridata.netlify.app/:splat"
-  status = 301
-  force = true
+# Force HTTPS (update the URL to match your Netlify domain)
+# [[redirects]]
+#   from = "http://cheapdata.netlify.app/*"
+#   to = "https://cheapdata.netlify.app/:splat"
+#   status = 301
+#   force = true
 
 # Headers for security and MIME types
 [[headers]]
